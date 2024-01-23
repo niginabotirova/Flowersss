@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./Flower shop/style.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
+
+  <title>Flower Shop</title>
+</head>
+<body>
+  <header class="py-3 mb-3 border-bottom">
+    <div class="container-fluid d-grid gap-3 align-items-center" style="grid-template-columns: 1fr 2fr;">
+      <div class="dropdown">
+        <a href="#" class="d-flex align-items-center col-lg-4 mb-2 mb-lg-0 link-body-emphasis text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" class="bi bi-flower3" viewBox="0 0 16 16">
+            <path d="M11.424 8c.437-.052.811-.136 1.04-.268a2 2 0 0 0-2-3.464c-.229.132-.489.414-.752.767C9.886 4.63 10 4.264 10 4a2 2 0 1 0-4 0c0 .264.114.63.288 1.035-.263-.353-.523-.635-.752-.767a2 2 0 0 0-2 3.464c.229.132.603.216 1.04.268-.437.052-.811.136-1.04.268a2 2 0 1 0 2 3.464c.229-.132.489-.414.752-.767C6.114 11.37 6 11.736 6 12a2 2 0 1 0 4 0c0-.264-.114-.63-.288-1.035.263.353.523.635.752.767a2 2 0 1 0 2-3.464c-.229-.132-.603-.216-1.04-.268M9 4a2 2 0 0 1-.045.205q-.059.2-.183.484a13 13 0 0 1-.637 1.223L8 6.142l-.135-.23a13 13 0 0 1-.637-1.223 4 4 0 0 1-.183-.484A2 2 0 0 1 7 4a1 1 0 1 1 2 0M3.67 5.5a1 1 0 0 1 1.366-.366 2 2 0 0 1 .156.142q.142.15.326.4c.245.333.502.747.742 1.163l.13.232-.265.002a13 13 0 0 1-1.379-.06 4 4 0 0 1-.51-.083 2 2 0 0 1-.2-.064A1 1 0 0 1 3.67 5.5m1.366 5.366a1 1 0 0 1-1-1.732l.047-.02q.055-.02.153-.044.202-.048.51-.083a13 13 0 0 1 1.379-.06q.135 0 .266.002l-.131.232c-.24.416-.497.83-.742 1.163a4 4 0 0 1-.327.4 2 2 0 0 1-.155.142M9 12a1 1 0 0 1-2 0 2 2 0 0 1 .045-.206q.058-.198.183-.483c.166-.378.396-.808.637-1.223L8 9.858l.135.23c.241.415.47.845.637 1.223q.124.285.183.484A1.3 1.3 0 0 1 9 12m3.33-6.5a1 1 0 0 1-.366 1.366 2 2 0 0 1-.2.064q-.202.048-.51.083c-.412.045-.898.061-1.379.06q-.135 0-.266-.002l.131-.232c.24-.416.497-.83.742-1.163a4 4 0 0 1 .327-.4q.07-.074.114-.11l.041-.032a1 1 0 0 1 1.366.366m-1.366 5.366a2 2 0 0 1-.155-.141 4 4 0 0 1-.327-.4A13 13 0 0 1 9.74 9.16l-.13-.232.265-.002c.48-.001.967.015 1.379.06q.308.035.51.083.098.024.153.044l.048.02a1 1 0 1 1-1 1.732zM8 9a1 1 0 1 1 0-2 1 1 0 0 1 0 2"/>
+          </svg>
+
+
+        </a>
+        <ul class="dropdown-menu text-small shadow">
+          <li><a class="dropdown-item active" href="#" aria-current="page">Overview</a></li>
+          <li><a class="dropdown-item" href="#">Inventory</a></li>
+          <li><a class="dropdown-item" href="#">Customers</a></li>
+          <li><a class="dropdown-item" href="#">Products</a></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" href="#">Reports</a></li>
+          <li><a class="dropdown-item" href="#">Analytics</a></li>
+        </ul>
+      </div>
+
+
+      <div class="d-flex align-items-center">
+        <form class="w-100 me-3" role="search">
+          <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+        </form>
+
+        <div class="flex-shrink-0 dropdown">
+          <a href="#" class="d-block link-body-emphasis text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+            <img src="https://asset.bloomnation.com/c_pad,d_vendor:global:catalog:product:image.png,f_auto,fl_preserve_transparency,q_auto/v1683209609/vendor/8363/catalog/product/2/0/20230322054812_file_641b3f5c97a88_641b40bd8c710.jpg" alt="mdo" width="32" height="32" class="rounded-circle">
+          </a>
+          <ul class="dropdown-menu text-small shadow">
+            <li><a class="dropdown-item" href="#">New project...</a></li>
+            <li><a class="dropdown-item" href="#">Settings</a></li>
+            <li><a class="dropdown-item" href="#">Profile</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Sign out</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+  
+
+
+
+
+
+<div class="flower-picture">
+  <div class="row flex-lg-row-reverse align-items-center">
+    <div class="image-flower col-10 col-sm-8 col-lg-6">
+      <img src="https://asset.bloomnation.com/c_pad,d_vendor:global:catalog:product:image.png,f_auto,fl_preserve_transparency,q_auto/v1683209609/vendor/8363/catalog/product/2/0/20230322054812_file_641b3f5c97a88_641b40bd8c710.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="200" height="200" loading="lazy">
+    </div>
+    <div class="col-lg-6">
+      <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Nigina's Flower Shop</h1>
+      <p class="lead"> 
+
+        It is a proven fact that flowers or blooms, how we call them with love and passion, have a long-term positive effect on moods. In particular, study participants explained that they felt less depressed, anxious or agitated after receiving flowers, and demonstrated a higher sense of enjoyment and life satisfaction. Flowers are unique and beautiful; they help us to live better and create intimate connections.</p>
+      <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+        <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Shop Now</button>
+        <button type="button" class="btn btn-outline-secondary btn-lg px-4">Pickup The Order</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  
+
+
+  
+
+
+
+<div class="lots-of-pics">
+<div class="album py-5 bg-body-tertiary">
+    <div class="container">
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+           <img src="https://www.nativepoppy.com/cdn/shop/products/classic-bouquet_1024x1024.jpg?v=1618167844" id="images">
+            <div class="card-body">
+              <p class="card-text">A New Day</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Buy</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Reserve</button>
+                </div>
+                <small class="text-body-secondary">150$</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="https://afterrainflorist.com/wp-content/uploads/2020/10/AfterRainFlorist_PJ_Florist_KL_Selangor_Klang_Valley_Flower_Cheers_Happy_Flower__Beer_For_Men_Wrapping_Bouquet1-scaled.jpg" id="images">
+            <div class="card-body">
+              <p class="card-text">Rosette</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Buy</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Reserve</button>
+                </div>
+                <small class="text-body-secondary">99$</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="https://i.etsystatic.com/15363648/r/il/b1b360/3690219749/il_570xN.3690219749_4xv9.jpg" id="images">
+            <div class="card-body">
+              <p class="card-text">Ladie's Day</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Buy</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Reserve</button>
+                </div>
+                <small class="text-body-secondary">87$</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="https://i.etsystatic.com/23137709/r/il/fe0a41/4622813032/il_570xN.4622813032_t6lj.jpg" id="images">
+            <div class="card-body">
+              <p class="card-text">To Mum with Love</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Buy</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Reserve</button>
+                </div>
+                <small class="text-body-secondary">250$</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="https://en.flower-market.dp.ua/image/cache/data/roses/bush_Roses/bW1vHixaaSo-777x1080.jpg" id="images">
+            <div class="card-body">
+              <p class="card-text">Heaven Scent</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Buy</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Reserve</button>
+                </div>
+                <small class="text-body-secondary">97$</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="https://cdn02.pinkoi.com/product/Cb769kaM/0/3/500x0.jpg" id="images">
+            <div class="card-body">
+              <p class="card-text">Mamma Mia</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Buy</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Reserve</button>
+                </div>
+                <small class="text-body-secondary">100$</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="https://cdn01.pinkoi.com/product/7uYNz474/1/640x530.jpg" id="images">
+            <div class="card-body">
+              <p class="card-text">Stylish Spring</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Buy</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Reserve</button>
+                </div>
+                <small class="text-body-secondary">145$</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="https://www.butterfliesandsnailsflorist.com/system/images/cache/f48617f2f2e9aac24c73bfa1da070ffd.370x404.jpg" id="images">
+            <div class="card-body">
+              <p class="card-text">Carribean Twist</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Buy</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Reserve</button>
+                </div>
+                <small class="text-body-secondary">69$</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="https://thymestudio.ca/cdn/shop/files/BLUSH-_125-A.jpg?v=1688761944&width=1946" id="images">
+            <div class="card-body">
+              <p class="card-text">Summer Breeze</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Buy</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Reserve</button>
+                </div>
+                <small class="text-body-secondary">123$</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+  <div class="container py-3">
+    <header>
+      <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
+        <a href="/" class="d-flex align-items-center link-body-emphasis text-decoration-none">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-currency-dollar" viewBox="0 0 16 16">
+            <path d="M4 10.781c.148 1.667 1.513 2.85 3.591 3.003V15h1.043v-1.216c2.27-.179 3.678-1.438 3.678-3.3 0-1.59-.947-2.51-2.956-3.028l-.722-.187V3.467c1.122.11 1.879.714 2.07 1.616h1.47c-.166-1.6-1.54-2.748-3.54-2.875V1H7.591v1.233c-1.939.23-3.27 1.472-3.27 3.156 0 1.454.966 2.483 2.661 2.917l.61.162v4.031c-1.149-.17-1.94-.8-2.131-1.718zm3.391-3.836c-1.043-.263-1.6-.825-1.6-1.616 0-.944.704-1.641 1.8-1.828v3.495l-.2-.05zm1.591 1.872c1.287.323 1.852.859 1.852 1.769 0 1.097-.826 1.828-2.2 1.939V8.73z"/>
+          </svg>
+          <span class="fs-4">Gift Cards</span>
+        </a>
+
+        <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
+          <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="#">Features</a>
+          <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="#">Enterprise</a>
+          <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="#">Support</a>
+          <a class="py-2 link-body-emphasis text-decoration-none" href="#">Pricing</a>
+        </nav>
+      </div>
+  
+      <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+        <h1 class="display-4 fw-normal text-body-emphasis">Our Gift Cards</h1>
+        <p class="fs-5 text-body-secondary">You can purchase a gift card for your loved one so that they can choose a wonderful bouquet themselves</p>
+      </div>
+    </header>
+  
+    <main>
+      <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3">
+              <h4 class="my-0 fw-normal">Small Bouquet</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">$100<small class="text-body-secondary fw-light"></small></h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>Red Roses</li>
+                <li>Peones</li>
+                <li>Lilies</li>
+              </ul>
+              <button type="button" class="button-signup w-100 btn btn-lg btn-outline-primary">Get</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3">
+              <h4 class="my-0 fw-normal">Medium Bouquet</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">$150<small class="text-body-secondary fw-light"></small></h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>Roses of any color</li>
+                <li>Peones</li>
+                <li>Lilies</li>
+                <li>Tulips</li>
+              </ul>
+              <button type="button" class="w-100 btn btn-lg btn-primary">Get</button>
+            </div>
+          </div>
+        </div>
+        <div class="col" id="column-3">
+          <div class="card mb-4 rounded-3 shadow-sm border-primary">
+            <div class="card-header py-3 text-bg-primary border-primary" id="btn">
+              <h4 class="my-0 fw-normal">Large Bouquet</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">$200<small class="text-body-secondary fw-light"></small></h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>Orchids</li>
+                <li>Peones</li>
+                <li>Lilies</li>
+                <li>Tulips</li>
+              </ul>
+              <button type="button" class="w-100 btn btn-lg btn-primary">Get</button>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+     
+      
+    
+  
+    <footer class="pt-4 my-md-5 pt-md-5 border-top">
+      <div class="row">
+        <div class="col-12 col-md">
+          <img class="mb-2" id="image" src="https://thefauxflowercompany.com/cdn/shop/files/ArtificialflowersluxuryfauxsilkmixedpinkandwhitepeonybouquetarrangementbiburyvaselifelikerealisticfauxflowersABP15133.jpg?v=1687765408&width=1776" alt="" width="200" height="200">
+          <small class="d-block mb-3 text-body-secondary">© 2017–2023</small>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Features</h5>
+          <ul class="list-unstyled text-small">
+            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Cool stuff</a></li>
+            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Random feature</a></li>
+            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Team feature</a></li>
+            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Stuff for developers</a></li>
+            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Another one</a></li>
+            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Last time</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Resources</h5>
+          <ul class="list-unstyled text-small">
+            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Resource</a></li>
+            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Resource name</a></li>
+            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Another resource</a></li>
+            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Final resource</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>About</h5>
+          <ul class="list-unstyled text-small">
+            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Team</a></li>
+            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Locations</a></li>
+            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Privacy</a></li>
+            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Terms</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+
+
+    <script src="./Flower shop/flowers.js"></script>
+
+</body>
+</html>

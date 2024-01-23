@@ -1,0 +1,78 @@
+
+body {
+ font-family: 'Nanum Myeongjo', serif !important;
+}
+
+
+.bi {
+  background-color: pink !important;
+  border-radius: 50%;
+}
+
+.flower-picture {
+  margin-left: 150px !important;
+}
+
+body {
+  background: rgb(254,227,254);
+  background: linear-gradient(90deg, rgba(254,227,254,1) 0%, rgba(230,229,254,1) 63%, rgba(254,254,254,1) 100%);
+}
+
+img.d-block.mx-lg-auto.img-fluid {
+  margin-bottom: 20px;
+  border-radius: 50%;
+}
+
+.row>* {
+  font-size: smaller;
+  content: fit;
+  margin-bottom: 20px;
+}
+
+.btn-primary {
+  background-color: rgb(249, 201, 227) !important;
+  border-color: aliceblue !important;
+}
+
+
+.mb-lg-0 {
+margin-left: 20px !important;
+}
+
+.bg-body-tertiary  {
+  background: rgb(254,227,254) !important;
+  background: linear-gradient(90deg, rgba(254,227,254,1) 0%, rgba(230,229,254,1) 63%, rgba(254,254,254,1) 100%) !important;
+}
+
+.btn-outline-secondary {
+border-color: aliceblue !important;
+}
+
+.btn-outline-primary {
+  border-color: pink !important;
+  background-color: transparent !important;
+}
+
+
+.button-signup {
+  color: black !important;
+}
+
+#btn {
+  background-color: transparent !important;
+  color: black !important;
+}
+
+
+.card {
+  --bs-card-border-color: var (--bs-border-color-pink) !important;
+}
+
+#image {
+  border-radius: 50%;
+  border: solid rgb(237, 166, 237) 0.2rem;
+}
+
+#images {
+height: 400px;
+}
